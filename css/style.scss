@@ -36,8 +36,8 @@
 
 ---------------------------------------------------------------- */
 
-$main-color: #1A237E;
-$sub-color: #2576FD;
+$main-color: #489cba;
+$sub-color: #f97867;
 $mobile-xs-screen: 480px;
 $tablet-sm-screen: 767px;
 $desk-md-screen: 991px;
@@ -87,7 +87,7 @@ span, a {
 }
 
 a:hover{
-	color: inherit;
+	color: #e9492b;
 	text-decoration: none;
 }
 
@@ -1242,7 +1242,7 @@ a:hover{
 				width: 100%;
 				height: 100%;
 				background-color: $sub-color;
-				background: linear-gradient(to bottom, $main-color , $sub-color);
+				background: linear-gradient(to bottom, #489cba , $sub-color);
 				opacity: 0;
 				transition: all .5s;
 			}
