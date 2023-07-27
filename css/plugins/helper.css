@@ -397,10 +397,11 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   z-index: 1;
+  border-radius:16px;
 }
 
 [data-overlay-dark]:before {
-  background: #0b1520;
+  background: #0a4862;
 }
 
 [data-overlay-color]:before {
