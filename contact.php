@@ -1,18 +1,18 @@
 <?php
 
 // configure
-$from = 'Demo contact form <demo@domain.com>';
-$sendTo = 'Demo contact form <demo@domain.com>'; // Add Your Email
-$subject = 'New message from contact form';
-$fields = array('name' => 'Name', 'subject' => 'Subject', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in the email
-$okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
-$errorMessage = 'There was an error while submitting the form. Please try again later';
+$from = 'Nova mensagem de contato <contato@paispelosfilhos.com.br>';
+$sendTo = 'Contato <contato@paispelosfilhos.com.br>'; // Add Your Email
+$subject = 'Nova mensagem do formulário de contato';
+$fields = array('name' => 'Nome', 'subject' => 'Assunto', 'email' => 'E-mail', 'message' => 'Mensagem'); // array variable name => Text to appear in the email
+$okMessage = 'Formulário enviado com sucesso. Obrigado, em breve retornaremos o contato. :)';
+$errorMessage = 'Ocorreu um erro ao enviar o formulário. Por favor, tente novamente mais tarde.';
 
 // let's do the sending
 
 try
 {
-    $emailText = "You have new message from contact form\n=============================\n";
+    $emailText = "Você tem uma nova mensagem do formulário para contato!\n=============================\n";
 
     foreach ($_POST as $key => $value) {
 

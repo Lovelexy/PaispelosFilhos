@@ -67,7 +67,7 @@ body {
 
 p {
   font-family: 'Acumin Variable Concept', sans-serif;
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: 400;
   color: #000000;
   line-height: 1.8;
@@ -131,10 +131,10 @@ a:hover {
   border-right: 30vw solid transparent;
 }
 .curve.curve-gray-b:after, .curve.curve-gray-b:before {
-  border-bottom: 50px solid #0a4862;
+  border-bottom: 50px solid #489cba;
 }
 .curve.curve-gray-t:after, .curve.curve-gray-t:before {
-  border-top: 50px solid #0a4862;
+  border-top: 50px solid #489cba;
 }
 .curve:after, .curve:before {
   content: '';
@@ -156,7 +156,7 @@ a:hover {
   background: transparent;
 } 
 .section-padding {
-  padding: 100px 0;
+  padding: 80px 0;
 }
 .hero .section-padding .hero__img{
   padding: 3rem;
@@ -188,7 +188,7 @@ a:hover {
 }
 
 .bg-gray {
-  background: #0a4862;
+  background: #489cba;
 }
 
 .o-hidden {
@@ -220,7 +220,7 @@ a:hover {
   background-position: center center;
 }
 .header__box{
-    padding:2rem;
+   padding: 2rem 2rem 2rem 0;
     background:transparent;
     border-radius: 2rem;
     max-width: 780px;
@@ -231,7 +231,9 @@ a:hover {
    color:#ffffff;
 }
 .hero h4{
-    color:#494949!important;
+    color:#0a4862;
+    font-weight: 600;
+    font-size: 2rem;
 }
 .header__box h4{
     color:#ffffff;
@@ -394,7 +396,7 @@ a:hover {
 .butn-bg {
   background: #e9492b;
   border-color: #e9492b;
-  color: #fff;
+  color: #fff!important;
 }
 .butn-bg:hover span {
   color: #e9492b;
@@ -430,11 +432,11 @@ a:hover {
   left: 0;
   top: 0;
   width: 100%;
-  border: 0;
-  background: #f9f9f9;
+  border: 0;  
   z-index: 9;
   min-height: 88px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background: #ffffff;
+  
 }
 .navbar .icon-bar {
   color: #fff;
@@ -482,7 +484,7 @@ a:hover {
 .logo {
   padding: 15px 0;
   width: 120px;
-  margin-left:15px;
+  
 }
 
 /* ----------------------------------------------------------------
@@ -502,7 +504,7 @@ a:hover {
   display: inline-block;
 }
 .header .caption h4 {
-  font-size: 50px;
+  font-size: 36px;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -512,7 +514,7 @@ a:hover {
 }
 .header .caption h1 {
   margin: 10px 0;
-  font-size: 65px;
+  font-size: 32px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -521,8 +523,11 @@ a:hover {
           animation-delay: .6s;
           color:#0a4862;
 }
+.header .caption h1 span {
+  color:#0a4862;
+}
 .header .caption p {
-  font-size: 17px;
+  font-size: 17.2px;
     font-weight: 300;
     color: #0a4862;
     
@@ -533,6 +538,7 @@ a:hover {
     z-index:2;
     display:block;
     position:relative;
+    top: 2rem;
 }
 .header .caption p span {
   letter-spacing: 5px;
@@ -623,10 +629,19 @@ a:hover {
      [ 05 Start Hero ]
 -----------------------------------------------------------------*/
 .hero .extra-title {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  font-size: 1.25rem;
 }
 .hero .extra-title span {
-  color: #0a4862;
+  color: #0a4862 !important;  
+  font-size: 2rem;
+}
+.hero .engajamento{
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+.hero .engajamento p{
+  color:#ffffff
 }
 .hero .feat-item {
   padding: 0;
@@ -922,6 +937,10 @@ a:hover {
   color:#ffffff;
   font-weight: 500;
 }
+
+.process a.butn.butn-bg.border{
+  margin: 4rem auto 0 auto;
+}
 /* ----------------------------------------------------------------
      [ End Process ]
 -----------------------------------------------------------------*/
@@ -934,6 +953,7 @@ a:hover {
   -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
   border-radius: 30px;
+  margin-top: 1rem;
 }
 .works .filtering span {
   margin: 0 5px;
@@ -1011,6 +1031,10 @@ a:hover {
 .why-us h3 {
   color: #ffffff;
   font-size: 28px;
+}
+.why-us h4 {
+  color: #ffffff;
+  
 }
 
 .why-us .item{
@@ -1358,6 +1382,41 @@ a:hover {
      [ End Call-action ]
 -----------------------------------------------------------------*/
 /* ----------------------------------------------------------------
+     [ 13 Start Call-know ]
+-----------------------------------------------------------------*/
+.call-know {
+  position: relative;
+}
+.call-know img {
+  border-radius:16px;
+}
+
+/* .call-know:after {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+} */
+.call-know .text-center {
+  padding: 0 20px;
+}
+.call-know h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.call-know h5 {
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+/* ----------------------------------------------------------------
+     [ End Call-know ]
+-----------------------------------------------------------------*/
+/* ----------------------------------------------------------------
      [ 14 Start Contact ]
 -----------------------------------------------------------------*/
 .contact .contact-info h5 {
@@ -1470,9 +1529,7 @@ footer .logo{
     background-attachment: scroll !important;
   }
 
-  .navbar {
-   
-  }
+  
   .navbar .navbar-collapse {
     max-height: 400px;
     overflow: hidden;
@@ -1488,25 +1545,58 @@ footer .logo{
   .nav-scroll .navbar-toggler {
     margin-right: 15px;
   }
-  .nav-scroll .navbar-collapse .nav-link {
-    color: #fff !important;
-  }
+  
   .nav-scroll .navbar-collapse .active {
     color: #f97867 !important;
+  }
+  .header__box{
+    margin-bottom: 0;
+    color: #ffffff!important;
+    
+  }
+  .header__box h4{
+    
+    color: #ffffff;
+  }
+  .header__box h1{
+    
+    color: #ffffff;
+  }
+  .header .caption{
+    top: 2rem;
+  }
+  .header .caption p{
+    color:#ffffff
+  }
+  .header__box p{
+    
+    color: #ffffff;
+  }
+   [data-overlay-dark="0"]:before, [data-overlay-color="0"]:before, [data-overlay-light="0"]:before{
+      opacity:0.65!important;
   }
 
   .header {
     background-attachment: scroll !important;
-    background-position: 50% 0% !important;
+    background-position: 70% 0% !important;
   }
   .header .caption h4 {
     font-size: 30px;
-    color:#0a4862;
+    color:#ffffff;
   }
   .header .caption h1 {
     font-size: 45px;
     line-height: 1.4;
-    color:#0a4862;
+    color:#ffffff;
+    
+  }
+  .header .caption h1 span {
+  
+    color:#ffffff;
+    
+  }
+  .header .caption p {
+    font-size: 1rem;
     
   }
 
@@ -1553,8 +1643,13 @@ footer .logo{
     text-align: center;
   }
 
+  body > section > section.works.section-padding > div.container > div > div > h4{
+    padding: 2rem;
+  }
+
   .works .filtering .filter {
     padding: 0;
+    
   }
 
   .works .filtering span {
