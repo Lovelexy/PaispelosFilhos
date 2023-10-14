@@ -67,7 +67,7 @@ body {
 
 p {
   font-family: 'Acumin Variable Concept', sans-serif;
-  font-size: 1rem;
+  font-size: 20px;
   font-weight: 400;
   color: #000000;
   line-height: 1.8;
@@ -446,7 +446,7 @@ a:hover {
   font-weight: 500;
   color: #000000;
   letter-spacing: .5px;
-  margin: 16px 12px;
+  margin: 20px 12px;
   -webkit-transition: all .5s;
   transition: all .5s;
 }
@@ -527,7 +527,7 @@ a:hover {
   color:#0a4862;
 }
 .header .caption p {
-  font-size: 17.2px;
+  font-size: 17.1px;
     font-weight: 300;
     color: #0a4862;
     
@@ -638,7 +638,7 @@ a:hover {
 }
 .hero .engajamento{
   padding: 1.5rem;
-  border-radius: 1rem;
+  border-radius: 20px;
 }
 .hero .engajamento p{
   color:#ffffff
@@ -926,7 +926,7 @@ a:hover {
 }
 .process .item h6 {
   color: #0A4862;
-  font-size: 16px;
+  font-size: 20px;
   margin-bottom: 15px;
 }
 .process .item p {
@@ -953,7 +953,7 @@ a:hover {
   -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
   border-radius: 30px;
-  margin-top: 1rem;
+  margin-top: 20px;
 }
 .works .filtering span {
   margin: 0 5px;
@@ -973,6 +973,9 @@ a:hover {
 .works .item-img {
   position: relative;
   margin-top: 30px;
+}
+.works h4{
+  color:#0a4862;
 }
 .works .item-img:hover .item-img-overlay {
   visibility: visible;
@@ -1011,7 +1014,7 @@ a:hover {
 }
 .works .item-img-overlay h6 {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   margin-top: 5px;
 }
 
@@ -1093,7 +1096,7 @@ a:hover {
   margin-left: 72px;
 }
 .why-us .item .cont h5 {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   
   color:#ffffff;
@@ -1152,7 +1155,7 @@ a:hover {
   margin-top: 20px;
 }
 .team .item .info h6 {
-  font-size: 16px;
+  font-size: 20px;
   margin-bottom: 5px;
 }
 .team .item .info span {
@@ -1216,22 +1219,86 @@ a:hover {
 /* ----------------------------------------------------------------
      [ 11 Start Price ]
 -----------------------------------------------------------------*/
+
+/* CHAT GPT */
+
+
+/* Estilo base para o item */
+.item {
+  padding: 20px;
+  
+  border-radius: 5px;
+  
+  
+}
+
+/* Título do plano */
+.type h2 {
+  font-size: 2rem;  
+  color: #0a4862;
+}
+
+/* Oferta */
+.features h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #0a4862;
+}
+
+/* Preços */
+.value {
+  margin-bottom: 20px;
+}
+
+.value h3 {
+  font-size: 24px;
+}
+
+.value h3 s { /* Preço original cortado */
+  font-size: 20px;
+  color: #999; /* Cor mais clara para o preço original */
+}
+
+.value span { /* Preço com desconto */
+  font-size: 28px; /* Tamanho maior para ênfase */
+  color: #e74c3c; /* Uma cor de destaque, neste caso um vermelho */
+  font-weight: 700;
+}
+.price li{
+  padding: 0.25rem 0;
+  font-size: 1rem;
+}
+
+/* CHAT GPT */
+
 .price .item {
-  padding: 50px 15px;
+  padding: 36px 15px;
   background-color: #fff;
   -webkit-box-shadow: 0px 15px 40px -5px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 15px 40px -5px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
+  border-top: 8px solid #e9492b;
+    border-bottom: 8px solid #e9492b;
 }
+
 .price .type h4 {
-  font-size: 16px;
+  font-size: 20px;
   margin-bottom: 15px;
 }
+.price .value h4 small {
+  font-size: 13px;
+    color: #777;
+    margin-bottom: 12px;
+}
+.price .features h3 span {
+  color: #0a4862;  
+  font-size: 1.5rem;
+}
 .price .value {
-  margin-bottom: 30px;
+  margin-bottom: 0.5rem;
 }
 .price .value h3 {
-  font-size: 50px;
+  font-size: 2rem;
   display: inline-block;
   position: relative;
 }
@@ -1241,9 +1308,10 @@ a:hover {
   top: 0;
   left: -10px;
 }
-.price .features {
-  margin-bottom: 30px;
+.price .value h4 {
+  color: #121212;
 }
+
 .price .features li {
   font-size: 13px;
   color: #777;
@@ -1268,6 +1336,7 @@ a:hover {
 }
 .price .butn {
   padding: 10px 30px;
+  margin-top: 0.5rem;
 }
 .price .butn span {
   font-size: 12px;
@@ -1299,7 +1368,7 @@ a:hover {
   padding: 30px 0 15px;
 }
 .blog .item .cont h6 {
-  font-size: 16px;
+  font-size: 20px;
   margin-bottom: 10px;
 }
 .blog .item .info {
@@ -1353,7 +1422,7 @@ a:hover {
   position: relative;
 }
 .call-action img {
-  border-radius:16px;
+  border-radius:20px;
 }
 
 /* .call-action:after {
@@ -1388,7 +1457,17 @@ a:hover {
   position: relative;
 }
 .call-know img {
-  border-radius:16px;
+  border-radius:20px;
+}
+@media screen and (max-width: 991px) {
+.question-parent{
+flex-direction: column-reverse;
+
+}
+.question-parent img{
+  margin-bottom: 2rem;
+  
+  }
 }
 
 /* .call-know:after {
@@ -1419,6 +1498,19 @@ a:hover {
 /* ----------------------------------------------------------------
      [ 14 Start Contact ]
 -----------------------------------------------------------------*/
+.contact .contact-info h5 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.contact p{
+  color:#121212;
+ 
+}
+.contact-info p{
+  font-size:16px;
+  color: #999;
+}
 .contact .contact-info h5 {
   font-size: 18px;
   font-weight: 500;
@@ -1596,7 +1688,7 @@ footer .logo{
     
   }
   .header .caption p {
-    font-size: 1rem;
+    font-size: 20px;
     
   }
 
@@ -1620,8 +1712,20 @@ footer .logo{
   .process .item.odd {
     margin-top: 0;
   }
+  .call-action a {
+    margin-bottom: 2rem;
+  }
 }
 @media screen and (max-width: 767px) {
+  .workshop{
+    flex-direction: column-reverse;
+    display: flex;
+    
+
+  }
+  .workshop img{
+    margin-bottom: 2rem;
+  }
   .mb-sm50 {
     margin-bottom: 50px;
   }
@@ -1665,6 +1769,7 @@ footer .logo{
     font-size: 20px;
     font-weight: 300;
   }
+  
 }
 @media screen and (max-width: 480px) {
   .header .caption h4 {
