@@ -1225,7 +1225,7 @@ a:hover {
 
 /* Estilo base para o item */
 .item {
-  padding: 20px;
+  
   
   border-radius: 5px;
   
@@ -1418,11 +1418,28 @@ a:hover {
 /* ----------------------------------------------------------------
      [ 13 Start Call-action ]
 -----------------------------------------------------------------*/
+body > section.call-action.section-padding.bg-img.bg-fixed{
+  padding-bottom:80px;
+}
+
 .call-action {
   position: relative;
+  padding: 80px 0 0 0;
 }
 .call-action img {
   border-radius:20px;
+}
+.call-action_second_text h4{
+  font-size: 16px;
+  
+}
+.call-action h4{
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.call-action p {
+  font-size: 1rem;
 }
 
 /* .call-action:after {
@@ -1444,7 +1461,32 @@ a:hover {
 }
 .call-action h5 {
   font-weight: 400;
-  margin-bottom: 30px;
+  padding: 16px 20px;
+}
+
+/* pROPOUSE SECTION */
+
+.propouse-section {
+  padding-bottom: 80px;
+  padding-top: 20px;
+ 
+}
+
+.propouse-section p {
+  font-size: 1rem;
+  line-height: 1.8;
+}
+.propouse-section .row {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.propouse-section h4 {
+  font-size: 2rem;
+  color:#0a4862
+
 }
 
 /* ----------------------------------------------------------------

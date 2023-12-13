@@ -2,7 +2,7 @@
 
 // configure
 $from = 'Nova mensagem de contato <contato@paispelosfilhos.com.br>';
-$sendTo = 'Contato <contato@paispelosfilhos.com.br>'; // Add Your Email
+$sendTo = 'Contato <lucas_rc15@live.com>'; // Add Your Email
 $subject = 'Nova mensagem do formulário de contato';
 $fields = array('name' => 'Nome', 'subject' => 'Assunto', 'email' => 'E-mail', 'message' => 'Mensagem'); // array variable name => Text to appear in the email
 $okMessage = 'Formulário enviado com sucesso. Obrigado, em breve retornaremos o contato. :)';

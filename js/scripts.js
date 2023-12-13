@@ -114,7 +114,7 @@ $(function() {
                 items:2
             },
             1000:{
-                items:4
+                items:3
             }
         }
     });
@@ -255,7 +255,7 @@ $(document).ready(function() {
     });
 
     owl.on('changed.owl.carousel', function(event) {
-        var item = event.item.index - 2;     // Position of the current item
+        var item = event.item.index - 1;     // Position of the current item
         $('h4').removeClass('animated fadeInLeft');
         $('h1').removeClass('animated fadeInRight');
         $('p').removeClass('animated fadeInUp');
